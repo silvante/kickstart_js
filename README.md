@@ -32,28 +32,23 @@ A full-stack, production-ready authentication starter built with **NestJS** (bac
 
 ```env
 # General App Config
-PORT=3000
-JWT_SECRET=a-strong-random-secret-key
-JWT_EXPIRES_IN=1d
+
+DATABASE_URL="postgresql://db_user:password@localhost:5432/kickstart_js"
+FRONT_ORIGIN="http://localhost:3000" # frontend link
+PORT=8080
+JWT_SECRET="a-string-secret-at-least-256-bits-long"
 
 # Magic Link Email Auth
-EMAIL_FROM=no-reply@example.com
-EMAIL_HOST=smtp.example.com
-EMAIL_PORT=587
-EMAIL_USER=your-email-user
-EMAIL_PASS=your-email-password
-MAGIC_LINK_EXPIRATION_MINUTES=15
-MAGIC_LINK_FRONTEND_URL=http://localhost:3001/auth/magic/callback
+
+MAILER_USER="no-reply@example.uz"
+MAILER_PASS="Your email app password"
 
 # Google OAuth
-GOOGLE_CLIENT_ID=your-google-client-id
-GOOGLE_CLIENT_SECRET=your-google-client-secret
-GOOGLE_CALLBACK_URL=http://localhost:3000/auth/google/callback
 
-# GitHub OAuth
-GITHUB_CLIENT_ID=your-github-client-id
-GITHUB_CLIENT_SECRET=your-github-client-secret
-GITHUB_CALLBACK_URL=http://localhost:3000/auth/github/callback
+GITHUB_CLIENT_ID="Your github client id"
+GITHUB_CLIENT_SECRET="Your github client secret"
 
-# (Optional) Frontend URL for CORS and redirects
-FRONTEND_URL=http://localhost:3001
+# Google OAuth
+
+GOOGLE_CLIENT_ID="Your google client id"
+GOOGLE_CLIENT_SECRET="Your google client secret"

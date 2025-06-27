@@ -13,8 +13,6 @@ A full-stack, production-ready authentication starter built with **NestJS** (bac
 - 🧩 Modular & extensible codebase
 - ✅ Built-in input validation & error handling
 
----
-
 ## 🚀 Technologies
 
 - **Backend:** [NestJS](https://nestjs.com/) with Passport.js strategies
@@ -23,8 +21,6 @@ A full-stack, production-ready authentication starter built with **NestJS** (bac
 - **Email Provider:** Custom (sendmail, nodemailer, etc.)
 - **Database:** (Plug your own, e.g., Prisma, MongoDB, or SQL)
 - **Session Storage:** JWT (can be extended to use Redis or database)
-
----
 
 ## 🧪 .env Example (Backend)
 

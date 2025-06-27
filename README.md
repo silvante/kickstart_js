@@ -16,11 +16,11 @@ A full-stack, production-ready authentication starter built with **NestJS** (bac
 ## 🚀 Technologies
 
 - **Backend:** [NestJS](https://nestjs.com/) with Passport.js strategies
-- **Frontend:** [Next.js](https://nextjs.org/) (App Router or Pages Router)
+- **Frontend:** [Next.js](https://nextjs.org/) (App Router)
 - **Auth:** Magic link via email + OAuth2 for Google & GitHub
-- **Email Provider:** Custom (sendmail, nodemailer, etc.)
-- **Database:** (Plug your own, e.g., Prisma, MongoDB, or SQL)
-- **Session Storage:** JWT (can be extended to use Redis or database)
+- **Email Provider:** Nodemailer
+- **Database:** Prisma & PostgreSQL (But you can change to any SQL based database easily via Prisma)
+- **Session Storage:** JWT based
 
 ## 🧪 .env Example (Backend)
 

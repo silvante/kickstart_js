@@ -1,8 +1,8 @@
 {
   "name": "server",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "version": "1.0.0",
+  "description": "Kisckstartjs is a auth generator which lets you focus on your project instead of configueation",
+  "author": "mardonbek Khamidov",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

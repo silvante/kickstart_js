@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Roboto } from "next/font/google";
 import "../globals.css";
 import Image from "next/image";
-import Svolve from "../(global_components)/Svolve";
 import { Toaster } from "react-hot-toast";
+import Logotype from "../(global_components)/Logotype";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -34,7 +34,7 @@ export default function RootLayout({
         className=" object-cover fixed top-0 left-0 z-0 select-none"
       />
       <div className="z-10 bg-white rounded-2xl p-8 max-w-xl w-full space-y-4 shadow-2xl">
-        <Svolve />
+        <Logotype />
         {children}
       </div>
     </div>

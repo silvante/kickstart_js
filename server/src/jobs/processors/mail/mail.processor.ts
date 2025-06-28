@@ -6,6 +6,7 @@ import { QUEUE_NAME } from 'src/constants';
 export class MailProcessor extends WorkerHost {
   async process(job: Job, email: string): Promise<any> {
     if (job.name === 'send_email_verification') {
+      // here sits your own logic for Job
       setTimeout(() => {
         console.log(`sending mail to ${email}`);
       }, 2000);

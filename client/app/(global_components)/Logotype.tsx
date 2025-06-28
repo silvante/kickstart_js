@@ -5,7 +5,7 @@ interface SvolveProps {
   link?: string;
 }
 
-export default function Svolve({ link }: SvolveProps) {
+export default function Logotype({ link }: SvolveProps) {
   return (
     <Link href={link ? link : "/"} className="inline-block">
       <Image

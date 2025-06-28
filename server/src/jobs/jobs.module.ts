@@ -22,4 +22,3 @@ import { MailProcessor } from './processors/mail/mail.processor';
   exports: [MailQueue],
 })
 export class JobsModule {}
-``

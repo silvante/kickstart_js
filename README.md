@@ -1,4 +1,4 @@
-# 🔐 NestJS + Next.js Authentication Kickstart Template
+## 🔐 NestJS + Next.js Authentication Kickstart Template
 
 A full-stack, production-ready authentication starter built with **NestJS** (backend) and **Next.js** (frontend). It comes with **Magic Link**, **Google**, and **GitHub** authentication strategies fully integrated, secure, and scalable for modern web applications.
 
